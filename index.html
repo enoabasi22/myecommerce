@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <ul class="font-[Inter] flex flex-wrap gap-x-5 gap-y-3 items-center py-5 px-5 text-[14px] font-[500] sm:gap-7 sm:px-7 lg:gap-10 lg:py-7 lg:px-9">
+      <a href="index.html"><li>Home</li></a>
+      <a href="shop.html"><li>Shop</li></a>
+      <a href="blog.html"><li>Blog</li></a>
+      <a href="support.html"><li>Support</li></a>
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </ul>
+  </header>
+
+  <!-- First Section -->
+  <section class="px-4 py-2 sm:px-6 lg:px-9">
+    <div class="relative h-[70vh] min-h-[520px] rounded-3xl overflow-hidden sm:h-[80vh] lg:h-[100vh]">
+      <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover">
+        <source src="images/Cloth_02_(light_theme).mp4" type="video/mp4">
+      </video>
+
+      <div class="relative z-10 flex flex-col justify-center h-full text-white px-5 sm:px-8 lg:px-4 lg:ml-11">
+        <div class="bg-[#f9f5fd] text-black rounded-4xl font-[600] py-[4px] text-[14px] mb-7 flex px-1 gap-3 w-48 sm:mb-9 lg:mb-12">
+          <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/shopify.png" alt="shopify">Powered by Shopify
+        </div>
+        <h1 class="w-full max-w-[800px] text-[38px] leading-tight font-[600] text-black sm:text-[52px] lg:text-[65px] lg:leading-16">The <span class="text-[#8345d8]">store</span> that sells all things <span class="text-[#8345d8]">beautiful</span> and <span class="text-[#8345d8]">retro</span>.</h1>
+        <p class="mt-4 font-[Inter] text-[#3a2853f3] w-full max-w-[500px] text-[16px] mb-7 font-[500] sm:text-[18px] lg:mb-9">Discover handpicked retro gems, nostalgic gadgets, and timeless pieces that bring a little old-school magic to everyday life.</p>
+        <button class="py-3 px-4 rounded-3xl bg-[#d7b5fd] w-full max-w-[220px] text-black font-[500] sm:w-[220px] lg:w-[15%]">Shop Products <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Second Section -->
+  <section class="px-4 py-10 sm:px-6 lg:px-9">
+    <div class="flex items-end justify-between gap-4">
+      <div class="mb-6">
+        <h2 class="text-[20px] font-[600] font-[Inter]">Most Popular</h2>
+        <p class="text-gray-500 font-[Inter]">Behold some of our Best sellers!</p>
+      </div>
+      <a href="shop.html"><button class="font-[500] font-[Inter] h-11 px-3 rounded-2xl hover:bg-[#d7b5fd] whitespace-nowrap">View All <i class="fa-solid fa-arrow-right"></i></button></a>
+    </div>
+    <div class="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3">
+      <div>
+        <img class="w-full h-[320px] object-cover bg-[#f9f6fe] rounded-2xl sm:h-[360px] lg:h-[400px]" src="images/box1.avif" alt="Retro Handheld Console">
+        <h3 class="text-[24px] font-[Inter] font-[600]">Retro Handheld Console</h3>
+        <h4 class="font-[Inter] font-[600] text-[19px]">Technology</h4>
+        <p class="text-gray-500 font-[Inter] text-[14px]">USD $59.99</p>
+      </div>
+      <div>
+        <img class="w-full h-[320px] object-cover bg-[#f9f6fe] rounded-2xl sm:h-[360px] lg:h-[400px]" src="images/box2.avif" alt="Horizontal Glow Sneakers">
+        <h3 class="text-[24px] font-[Inter] font-[600]">Horizontal Glow Sneakers</h3>
+        <h4 class="font-[Inter] font-[600] text-[19px]">Footwear</h4>
+        <p class="text-gray-500 font-[Inter] text-[14px]">USD $129.99</p>
+      </div>
+      <div>
+        <img class="w-full h-[320px] object-cover bg-[#f9f6fe] rounded-2xl sm:h-[360px] lg:h-[400px]" src="images/box3.avif" alt="Tropical Paradise Plant">
+        <h3 class="text-[24px] font-[Inter] font-[600]">Tropical Paradise Plant</h3>
+        <h4 class="font-[Inter] font-[600] text-[19px]">Home</h4>
+        <p class="text-gray-500 font-[Inter] text-[14px]">USD $39.99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Third Section -->
+  <section class="py-9 px-4 sm:px-6 lg:px-14">
+    <div class="bg-[#f9f6fe] flex flex-col items-center rounded-2xl px-5 pb-12 sm:px-8 lg:pb-16">
+      <img class="h-[75px] w-[75px] rounded-full mt-14 sm:h-[90px] sm:w-[90px] lg:mt-[100px]" src="images/testimonial.avif" alt="Dave Sharpoo">
+      <h3 class="font-[600] text-[30px] leading-tight w-full max-w-[1050px] text-center mt-7 sm:text-[40px] lg:text-[50px] lg:leading-14">“Absolutely obsessed with my vintage console, it was beautifully packaged, it works perfectly, and brings so much character to my space.</h3>
+      <div class="flex gap-1">
+        <i class="fa-solid fa-star mt-7 !text-[#D4AF37] lg:mt-10"></i><i class="fa-solid fa-star mt-7 !text-[#D4AF37] lg:mt-10"></i><i class="fa-solid fa-star mt-7 !text-[#D4AF37] lg:mt-10"></i><i class="fa-solid fa-star mt-7 !text-[#D4AF37] lg:mt-10"></i><i class="fa-solid fa-star mt-7 !text-[#D4AF37] lg:mt-10"></i>
+      </div>
+      <h4 class="mt-3 font-[Inter] text-gray-500 font-[500]">Dave Sharpoo</h4>
+      <p class="mt-7 text-center font-[Inter] text-[16px] text-gray-700 lg:mt-9">Feature client logos to build trust and credibility for your brand:</p>
+    </div>
+  </section>
+
+  <!-- Fifth Section -->
+  <section class="px-4 py-8 sm:px-6 lg:px-14 lg:py-12">
+    <div class="relative h-[55vh] min-h-[400px] rounded-3xl overflow-hidden lg:h-[85vh]">
+      <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover">
+        <source src="images/trainers.mp4" type="video/mp4">
+      </video>
+      <div class="relative z-10 flex flex-col justify-center items-center h-full text-white px-5 sm:px-8 lg:px-4 lg:ml-11">
+        <h1 class="text-[34px] leading-tight text-center w-full max-w-[800px] font-[600] text-white font-[Inter] sm:text-[42px] lg:text-[47px] lg:leading-16">See some of our products in action and learn about their benefits.</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sixth Section -->
+  <section class="flex flex-col items-center py-9 px-4 sm:px-6 lg:px-9">
+    <h4 class="text-[32px] leading-tight text-center font-[500] sm:text-[40px]">What makes you stand out?</h4>
+    <h3 class="text-[18px] text-center text-gray-600 font-[500] mb-10 sm:text-[20px] lg:mb-16">We are not your average retro sotre and this is why.</h3>
+    <div class="grid w-full max-w-[1040px] grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-7 lg:grid-cols-3 lg:gap-10">
+      <div class="bg-[#f9f6fe] px-7 py-8 rounded-2xl"><div class="mt-6 lg:mt-16"><h5 class="text-[18px] font-[600] mb-3">Instant Digital Downloads</h5><p class="text-[16px] text-[#79777c] font-[400] max-w-[300px]">Access your Digital Product Purchase immediately after checkout.</p></div></div>
+      <div class="bg-[#f9f6fe] px-7 py-8 rounded-2xl"><div class="mt-6 lg:mt-16"><h5 class="text-[18px] font-[600] mb-3">Premium Quality Materials</h5><p class="text-[16px] text-[#79777c] font-[400] max-w-[300px]">Products crafted with only the finest materials for long-lasting quality.</p></div></div>
+      <div class="bg-[#f9f6fe] px-7 py-8 rounded-2xl"><div class="mt-6 lg:mt-16"><h5 class="text-[18px] font-[600] mb-3">Fast &amp; Secure Shipping</h5><p class="text-[16px] text-[#79777c] font-[400] max-w-[300px]">The fastest shipping with complete tracking on all physical product orders.</p></div></div>
+    </div>
+  </section>
+
+  <!-- Seventh Section -->
+  <section class="py-8 px-4 sm:px-6 lg:py-12 lg:px-8">
+    <div class="flex items-end justify-between gap-4"><div class="mb-6"><h2 class="text-[20px] font-[600] font-[Inter]">Explore the Blog</h2><p class="text-gray-500 font-[Inter]">Share insights, boost SEO, and build trut with your audience.</p></div><button class="font-[500] font-[Inter] h-11 px-4 sm:px-6 rounded-2xl hover:bg-[#d7b5fd] whitespace-nowrap">View All <i class="fa-solid fa-arrow-right"></i></button></div>
+  </section>
+
+  <!-- Eighth Section -->
+  <section class="px-4 py-6 sm:px-6 lg:px-8 lg:py-9">
+    <div class="flex flex-col lg:flex-row">
+      <div class="lg:w-[40%]"><img class="w-full h-[300px] object-cover rounded-t-2xl lg:h-[500px] lg:rounded-tr-none lg:rounded-l-2xl" src="images/blog picture.avif" alt="Digital backgrounds"></div>
+      <div class="flex flex-col px-5 py-8 bg-[#f9f6fe] rounded-b-2xl lg:w-[60%] lg:px-6 lg:py-0 lg:rounded-b-none lg:rounded-r-2xl">
+        <h3 class="text-[30px] font-[500] w-full max-w-[40vw] leading-tight lg:text-[40px] lg:leading-10 lg:mt-16 lg:ml-16">10 Creative Ways to Use Digital Backgrounds in Your Projects</h3>
+        <h5 class="text-[16px] text-[#79777c] w-full max-w-[520px] mt-6 lg:w-[55%] lg:mt-8 lg:ml-16">Discover unique and inspiring ways to incorporate digital backgrounds into your designs, from websites to social media.</h5>
+        <div class="flex gap-4 mt-8 lg:mt-0"><img class="h-[35px] w-[35px] rounded-full lg:mt-32 lg:ml-16" src="images/sarah.avif" alt="Sarah Abraham"><div><h4 class="text-[15px] font-[500] lg:mt-32">Written by Sarah Abraham</h4><p class="text-[14px] text-[#79777c]">Graphics Designer</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ninth Section -->
+  <section class="py-10 px-4 sm:px-6 lg:py-16 lg:px-12">
+    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+      <div><img class="w-full h-[240px] object-cover rounded-2xl lg:h-[260px]" src="images/rec1.avif" alt="Social media templates"><h2 class="text-[19px] font-[600] max-w-[380px]">How to Make Your Social Media Posts Stand Out with Templates</h2></div>
+      <div><img class="w-full h-[240px] object-cover rounded-2xl lg:h-[260px]" src="images/rec2.avif" alt="Brand mockups"><h2 class="text-[19px] font-[600] max-w-[380px]">The Beginner’s Guide to Using Mockups for Your Brand</h2></div>
+      <div><img class="w-full h-[240px] object-cover rounded-2xl lg:h-[260px]" src="images/rec3.avif" alt="Mobile-friendly store"><h2 class="text-[19px] font-[600] max-w-[380px]">Why a Fast, Mobile-Friendly Store Matters for Your Customers</h2></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 px-4 sm:px-6 lg:px-8">
+    <div class="bg-[#ede4fc] py-10 px-6 flex flex-col gap-10 rounded-3xl lg:py-12 lg:px-14 lg:flex-row lg:justify-between">
+      <div class="w-full lg:w-[60%]">
+        <h5 class="text-[30px] leading-tight font-[600] mb-6 w-full max-w-[550px] lg:text-[33px] lg:w-[50%]">Join our newsletter and get 20% off your first purchase with us.</h5>
+        <div class="flex flex-col gap-3 sm:flex-row sm:gap-5"><input class="bg-white py-[14px] px-5 rounded-2xl w-full sm:max-w-[330px] sm:px-14" placeholder="Enter your email" type="email"><button class="py-2 px-5 bg-[#8345d8] text-white font-[600] hover:bg-[#48168e] rounded-2xl">Join</button></div>
+        <h3 class="mt-10">Created by Hamza Ehsan © 2024</h3>
+      </div>
+      <div class="flex gap-12 sm:gap-20 lg:gap-12"><ul class="leading-8"><li class="font-[500] mb-3">Pages</li><li>Homes</li><li>Shops</li><li>Collections</li><li>Blog</li></ul><ul class="leading-8"><li class="font-[500] mb-3">Pages</li><li>Homes</li><li>Shops</li><li>Collections</li><li>Blog</li></ul></div>
+    </div>
+  </footer>
+</body>
+</html>
